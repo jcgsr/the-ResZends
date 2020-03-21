@@ -44,3 +44,18 @@ footer{
 .carousel-inner img {
     margin: auto;
   }
+
+  @media only screen and (max-width: 500px) {
+    #container{
+        width: 300px;
+    } 
+   #songs{
+       width: 300px;
+       margin: auto 20px;
+   }
+   audio{
+       width: 250px;
+   }
+    
+   
+}
