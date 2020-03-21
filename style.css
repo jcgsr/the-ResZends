@@ -1,0 +1,46 @@
+@font-face {
+    font-family: Broken;
+    src: url(fonts/BROKEN15.TTF);
+  }
+/*TAGS*/
+body{
+    background-color: black;
+    font-family: Broken;
+    color: aliceblue;
+        
+}
+h1{
+    text-align: right;
+    margin-right: 170px;
+}
+
+hr.style1{
+	border-top: 1px solid #8c8b8b;
+}
+footer{
+    margin-bottom: 0;
+    clear: right;
+    text-align: center;
+}
+
+/*IDs*/
+#container{
+    width: 500px;
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center; 
+    margin: auto;
+}/*centralizar carrossel bootstrap*/
+#songs{
+    background-color: rgb(105, 105, 9);
+    width: 400px;
+    float: right;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+/*CLASSES*/
+.carousel-inner img {
+    margin: auto;
+  }
